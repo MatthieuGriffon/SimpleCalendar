@@ -1,0 +1,39 @@
+#header {
+    display: flex;
+    margin: auto;
+    text-align: center;
+}
+button#next, button#prev {
+    max-height: 25px;
+    display: flex;
+    margin: 2%;
+
+
+}
+
+#calendar {
+    width: 900px;
+    margin: auto;
+    font-family: Arial, sans-serif;
+  }
+  #calendar table {
+    display: inline-block;
+    margin-right: 20px;
+    vertical-align: top;
+    border-collapse: collapse;
+    width: 28%;
+    margin-bottom: 20px;
+  }
+  #calendar th, #calendar td {
+    padding: 5px;
+    text-align: center;
+    border: 1px solid #ccc;
+  }
+  #calendar th {
+    background-color: #f2f2f2;
+  }
+  #calendar td.selected {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
